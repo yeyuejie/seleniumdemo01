@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo_suite1" >
+  <test name="testround1" >
+    <classes>
+      <class name="com.pinke.testngdemo.TestNGDemo3"/>
+      <class name="com.pinke.testngdemo.TestNGDemo4"/>
+      <class name="com.pinke.testngdemo.TestNGPredes"/>
+    </classes>
+   </test>
+</suite>

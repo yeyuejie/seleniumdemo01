@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1">
+    <listeners> 
+      <listener class-name="com.pinke.testngdemo.MyListener"/>
+    </listeners>
+    <packages>
+       <package name="com.pinke.ecshop.testutils"/>
+    </packages>
+    <test name="testround1">
+       <classes>
+          <class name="com.pinke.ecshop.tests.LoginTest"/>
+       </classes>
+    </test>
+   
+</suite>

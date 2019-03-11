@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testsuite1">
+   <test name="testround1">
+      <groups>
+        <run>
+           <include name="windows.g1"></include>
+        </run>
+      </groups>
+      <classes>
+         <class name="com.pinke.testngdemo.Groups"/> 
+      </classes>
+   </test>
+
+</suite>

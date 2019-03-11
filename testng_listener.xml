@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1">
+    <listeners> 
+      <listener class-name="com.pinke.testngdemo.MyListener"/>
+    </listeners>
+    <test name="testround1">
+       <classes>
+          <class name="com.pinke.testngdemo.TestNGDemo1"/>
+       </classes>
+    </test>
+    <suite-files>
+        <suite-file path="\target\surefire-reports\testng-failed.xml"></suite-file>
+        <suite-file path="\target\surefire-reports\testng-failed.xml"></suite-file>
+    </suite-files>
+</suite>
